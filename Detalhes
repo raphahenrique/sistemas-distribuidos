@@ -1,0 +1,14 @@
+Detalhes
+
+Heroku
+Para funcionar o heroku, foi preciso criar um package.json e colocar na raiz
+Também tem que estar o server.js la
+Teve que setar o buildpack do node.js
+
+
+Pusher
+Conseguiu se conectar e 'assinar' um canal
+Como é um canal privado, tinha que ter autorizacao, conseguida pelo server
+olhar documentação
+
+
