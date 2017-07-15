@@ -21,7 +21,9 @@ body {
 
 .doc .doc_background {
   height: 200px;
-  background: #ff9900;
+  background: #6495ED;
+    /*ff9900;*/
+  
 }
 
 .doc .doc_editor {
