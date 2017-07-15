@@ -22,9 +22,7 @@ body {
 
 .doc .doc_background {
   height:500px ;
-  background: #ff9900;
-    
-  
+  background: #ff9900; 
 }
 
 .doc .doc_editor {
@@ -71,24 +69,53 @@ a.btn{
   -o-transition-timing-function:ease;
   transition-timing-function:ease
 }
-.btn{color:#fff;
+.btn{
+  color:#fff;
   border:1px solid rgba(0,0,0,0.18);
   background:rgba(0,0,0,0.38);
   text-shadow:1px 1px 0 rgba(0,0,0,0.08)}
 
 a.btn,a.btn:hover{
-  color:white!important}.btn{margin-bottom:5px;
+  color:white!important
+}
+.btn{margin-bottom:5px;
   color:#fff;border:1px solid rgba(0,0,0,0.18);
   background:rgba(0,0,0,0.38);text-shadow:1px 1px 0 rgba(0,0,0,0.08);
   -webkit-border-radius:2px;
   -moz-border-radius:2px;border-radius:2px
 }
 .btn:hover::after,.btn:focus::after{
-  background:rgba(255,255,255,0.09)    color:white}.btn:active::after{background:rgba(255,255,255,0.18) color:white}.btn_label.show{display:block}.btn::after{position:absolute;
-      top:0;right:0;bottom:0;left:0;
-      content:''
-  ;-webkit-border-radius:inherit;
-  -moz-border-radius:inherit;border-radius:inherit}.btn.icon::before{display:block;content:'';
-  position:absolute;top:0;left:0;bottom:0;width:20px;border-radius:inherit;
-  background:url('http://static.tumblr.com/tpqedpr/cQ1mbwb60/de.png') 0 0 no-repeat}.btn.theme::before{background-position:0 -0px}.btn img{width:15px}.btn.icon{padding-left:20px}.btn:active::after {background:rgba(255,255,255,0.18)}.clear {clear: both;} #pagination {display: all;
+  background:rgba(255,255,255,0.09)    
+  color:white
+}
+.btn:active::after{
+  background:rgba(255,255,255,0.18) 
+  color:white
+}
+.btn_label.show{
+  display:block
+}
+.btn::after{
+  position:absolute;
+  top:0;right:0;bottom:0;left:0;
+  content:'';
+  -webkit-border-radius:inherit;
+  -moz-border-radius:inherit;border-radius:inherit
+}
+.btn.icon::before{
+  display:block;content:'';
+  position:absolute;
+  top:0;left:0;
+  bottom:0;
+  width:20px;
+  border-radius:inherit;
+  background:url('http://static.tumblr.com/tpqedpr/cQ1mbwb60/de.png') 0 0 no-repeat
+}
+.btn.theme::before{
+  background-position:0 -0px
+}
+.btn img{width:15px
+}
+.btn.icon{padding-left:20px}
+.btn:active::after {background:rgba(255,255,255,0.18)}.clear {clear: both;} #pagination {display: all;
 }
