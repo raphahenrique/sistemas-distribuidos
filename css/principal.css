@@ -12,7 +12,7 @@ body {
   height: 80px;
   display: flex;
   align-items: center;
-  background: #ff9900;
+  /*background: #ff9900;*/
 }
 
 .h1_header {
@@ -33,7 +33,7 @@ body {
   min-height: 300px;
   background: #f0ff99;
   margin: 0 auto;
-  transform: translateY(-350px);
+  transform: translateY(-450px);
 }
 
 a.btn{
