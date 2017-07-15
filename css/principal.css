@@ -20,19 +20,19 @@ body {
 }
 
 .doc .doc_background {
-  height: 100%;
-  background: #6495ED;
-    /*ff9900;*/
+  height:200px ;
+  background: #ff9900;
+    
   
 }
 
 .doc .doc_editor {
   width: 60%;
-  padding: 40px 28px;
+  /*padding: 40px 28px; */
   min-height: 300px;
-  background: #ffffff;
+  background: #f0ff99;
   margin: 0 auto;
-  transform: translateY(-150px);
+  /*transform: translateY(-150px);*/
 }
 
 a.btn{
