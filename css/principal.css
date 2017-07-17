@@ -20,6 +20,10 @@ body {
   color: #424242;
 }
 
+.doc{
+background: #ff9900; 
+}
+
 .doc .doc_background {
   height:500px ;
   background: #ff9900; 
